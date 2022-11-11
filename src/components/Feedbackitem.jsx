@@ -3,7 +3,7 @@ import React from 'react'
 import Card from './shared/Card'
 import PropTypes from 'prop-types'
 
-function Feedbackitem({ item, handleDelete}) {
+function FeedbackItem({ item, handleDelete}) {
     return (
         <Card>
             <div className="num-dislay">{item.rating}</div>
@@ -15,8 +15,8 @@ function Feedbackitem({ item, handleDelete}) {
     )
 }
 
-Feedbackitem.propTypes = {
+FeedbackItem.propTypes = {
     item: PropTypes.object.isRequired,
 }
 
-export default Feedbackitem
+export default FeedbackItem

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import FeebackItem from './Feedbackitem'
+import FeebackItem from './FeedbackItem'
 
 function FeedbackList({ feedback, handleDelete }) {
     if(!feedback || feedback.length === 0) {
